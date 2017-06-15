@@ -1,4 +1,4 @@
-# 基于Arduino和Raspberry的智能家居控制系统 API SDK
+# 基于Arduino和Raspberry Pi的智能家居控制系统 API SDK
 
 ## 设备列表:
 ### 0:红外发射器(Emitter)
