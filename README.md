@@ -20,7 +20,7 @@
 
 ## 使用方法：
 
-    from api import get_status, patch_status 
+    from api import get_status, patch_status  # 调用SDK
 
 ### 获取设备状态:
 
