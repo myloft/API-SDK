@@ -1,6 +1,6 @@
 # 基于Arduino和Raspberry的智能家居控制系统 API SDK
 
-## 设备列表:##
+## 设备列表:
 ### 0:红外发射器(Emitter)
 (0,1):温度 
 (0,2):模式 
@@ -18,7 +18,7 @@
 (2,4):PM2.5 
 (2,5):温度
 
-## 使用方法：##
+## 使用方法：
 
     from api import get_status, patch_status 
 
