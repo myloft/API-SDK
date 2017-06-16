@@ -26,6 +26,9 @@
 
 - (2,5): 温度
 
+## 安装方法:
+    git clone https://github.com/myloft/API-SDK.git
+
 ## 使用方法：
 
     from api import get_status, patch_status, create_emitter, create_relay, create_sensor, delete_device  # 调用SDK
