@@ -26,9 +26,12 @@
 
 - (2,5): 温度
 
+## 安装方法:
+    git clone https://github.com/myloft/API-SDK.git
+
 ## 使用方法：
 
-    from api import get_status, patch_status  # 调用SDK
+    from api import get_status, patch_status, create_emitter, create_relay, create_sensor, delete_device  # 调用SDK
 
 ### 获取设备状态:
 
@@ -39,7 +42,14 @@
 
     patch_status(type_id, device_id, data)  # type_id:设备类型 device_id:设备id data:设备数据 返回值为HTTP状态码
     print(patch_status(2, 5, 29))  # 推送温度传感器状态并显示返回状态码 返回状态码200即修改成功
-    
+### 增加新设备:  
+
+
+    ID = create_emitter("Function", data)  # fucntion:发射器功能描述 data:设备初始状态 返回新创建设备ID
+    create_relay(data)  # data:继电器初始状态
+    create_sensor("name", data)  # name:传感器描述 data:传感器初始状态
+### 删除设备:
+    delete_device(type_id, device_id)  # 删除指定的设备
     
     
 
